@@ -16,7 +16,7 @@ export default function Welcome(){
         </div>
         <div className="col-md-4 col-12 position-relative">
             <div className="pic position-relative">
-                <img src={im} alt="Picture doctor"/>
+                <img src={im} alt="Picturedoctor" />
             </div>
             <img src={lineWavy} alt="Lines Wavies" className="position-absolute orange-wavy"/>
         </div>
