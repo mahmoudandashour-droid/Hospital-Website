@@ -34,12 +34,12 @@ export default function Book(){
 
                         <input type='submit' className='rounded-3  text-white-50 py-3 px-4 appoin m-auto' value={'Appointment Now'}/>
                     </form>
-                    <img src={wavay} className='position-absolute wavay animtion-hidden'/>
+                    <img src={wavay} className='position-absolute wavay animtion-hidden' alt='pic' />
                 </div>
 
                 <div className="col-12 col-lg-6  position-relative pic mt-3 mt-lg-0">
-                    <img src={phone} className='w-100 h-100'/>
-                    <img src={women} className='position-absolute woman'/>
+                    <img src={phone} className='w-100 h-100' alt='pic' />
+                    <img src={women} className='position-absolute woman' alt='pic' />
                     <span className='main-circal animtion-hidden position-absolute rounded-pill'></span>
                     <i className ="fa-solid fa-check animtion-hidden position-absolute rounded-pill check text-light"></i>
                     <i className ="fa-solid animtion-hidden fa-gear position-absolute  setting text-light"></i>
