@@ -69,7 +69,7 @@ export function NewCard({pic, avatar, name, time, info}){
         </div>
         <div className='card-body'>
             <div className='card-text d-flex align-items-center gap-2'>
-                <img className='rounded-pill avatar' src={avatar} alt='' />
+                <img className='rounded-pill avatar' src={avatar} alt='empty' />
                 <p className='coloro'>{name}</p>
                 <p className='coloro'><i className="fa-solid fa-calendar-days me-1 "></i>{time}</p>
             </div>
